@@ -1,0 +1,55 @@
+Advanced Remote Soldat Server Enchanter
+---------------------------------------
+
+
+The purpose of this project is to create the ultimate Soldat Server
+Administrator Tool. You are free to distribute it for free in any way.
+Just send me an email to let me know. If you find any kind 
+of bug please email me. '
+Disassembling and modifying the main executable is [stroke]prohibited[/stroke] allowed.
+
+          
+Thanks to those who tested it and helped me to create this application.
+          
+Special thanks to Michal Marcinkowski for releasing the source of the original Soldat Admin.
+
+Programmed by KeFear and Shoozza.
+
+
+Copyright 2006-2008
+
+
+
+https://forums.soldat.pl/index.php?topic=179.0
+
+
+
+
+I finally released my admin tool. It's connection code was based on MM's original Soldat Admin, but i changed that stuff a lot. 
+
+ARSSE offers a bunch of nice features for soldat server admins.
+Here's a short list:
+
+    Tabs for monitoring multiple servers at the same time
+    Favourite servers for faster access of your servers
+    Improved Player List
+    Improved command line
+    Encrypted server passwords stored in config files (option)
+    Command box with all the server commands
+    New server commands
+    Ingame commands
+    Super Fast Hotkeys for faster administration
+    Default Bots and Maps for faster, better Map changes and Bot adds
+    Colored player chat messages for better review
+    Automatic team swap function after map change
+    Automatic server messages
+    Avarage ping/score/death statistics
+    Resizeable window, player list and message box
+    Named bans
+    Minimize to system tray option
+    Basic scripting support
+    IRC Bot to control your servers from IRC, share access with your admins, etc.. (not completed yet)
+    etc, check readme for more details and up-to-date information
+
+
+ps: yes, it IS called ARSSE, for purpose. Bored of shty names that doesn't mean anything :)

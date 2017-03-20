@@ -1,0 +1,254 @@
+Join Game
+{
+$JOINSOLDAT
+}
+
+Clear Main Window
+{
+CLEAR
+}
+
+Recompile scripts
+{
+/recompile $INPUT('Script file to recompile','Enter script file or leave blank for all:')
+}
+
+Make Private
+{
+/password $INPUT('Make Private'  ,  'Enter new password:')
+/kickall
+}
+
+Shutdown Server
+{
+$CONFIRM( 'Shutdown Server?')
+SHUTDOWN
+}
+
+Send Server Message
+{
+/say $INPUT('Send Server Message','Enter message:')
+}
+
+Add Bot
+{
+/addbot$TEAMSELECT $INPUT('Select Bot to add','Enter Bot name:'):$LOADBOTS
+}
+
+- Map Management
+{
+}
+
+Load Maplist
+{
+/loadlist $INPUT('Load maplist from file','Enter maplist to load (without .txt)')
+}
+
+Change Map
+{
+/map $INPUT('Change map','New map:'):$LOADMAPS
+}
+
+Load next map
+{
+$CONFIRM('Load next map?')
+/nextmap
+}
+
+Restart Match
+{
+$CONFIRM('Restart match?')
+/restart
+}
+
+Add map
+{
+/addmap $INPUT('Add map to maplist','New map to add:'):$LOADMAPS
+}
+
+Remove map
+{
+/delmap $INPUT('Remove map from maplist','Map to remove:'):$LOADMAPS
+}
+
+- Player Management
+{
+}
+
+Add remote admin
+{
+/admip $INPUT('Add remote admin','Enter IP address of remote admin:')
+}
+
+Remove remote admin
+{
+/unadm $INPUT('Add remote admin','Enter IP address of remote admin:')
+}
+
+Kick last player
+{
+/kicklast
+}
+
+Ban IP
+{
+/banip $INPUT( 'Ban Player IP' , 'Enter IP address to ban:')
+}
+
+Unban IP
+{
+/unban $INPUT( 'Unban Player IP' , 'Enter IP address to unban:')
+}
+
+Ban Name
+{
+/banname $INPUT( 'Ban Name' , 'Enter name to ban:')
+}
+
+Unban Naoe
+{
+/unbanname $INPUT('Unban Name' , 'Enter name to unban:'):$LOADBANS
+}
+
+Ban last pla{er
+{
+$CONFIRM('Ban last player?')
+/banlast
+}
+
+Unban last player
+{
+$CONFIRM('Unban last player?')
+/unbanlast
+}
+
+Kick Everyone
+{
+/kickall
+}
+
+Swap Teams
+{
+/swapteams
+}
+
+Balance Teams
+{
+/balance
+}
+
+Skillbalance Teams
+{
+/skillbalance
+}
+
+Change welcome string
+{
+/welcome1 $INPUT('Welcome string','Line #1')
+/welcome2 $INPUT('Welcome string','Line #2')
+/welcome3 $INPUT('Welcome string','Line #3')
+}
+
+- Weapons
+{
+}
+
+Load Weapon Mod
+{
+/loadwep $INPUT('Load weapon mod from file','Enter weapon mod to load (without .ini)')
+}
+
+Turn weapon off
+{
+/weaponoff $INPUT('Turn weapon off','Enter weapon number \n1 - Desert Eagles')
+}
+
+Turn weapon qn
+{
+/weaponon $INPUT('Turn weapon off','Enter weapon number')
+}
+
+- Server Config
+{
+}
+
+Set respawn time
+{
+/respawntime $INPUT('Set respawn time','Enter respawn time in seconds:')
+}
+
+Set max respawn time
+{
+/maxrespawntime $INPUT('Set maximum respawn time','Enter maximum respawn time in seconds:')
+}
+
+Set time limit
+{
+/timelimit $INPUT('Time limit from next map','Enter new timelimit in minutes:')
+}
+
+Set kill/point/cap limit
+{
+/limit $INPUT('Set new kill/point/cap limit','Enter new kill/point/cap limit:')
+}
+
+Set game passworf
+{
+/password $INPUT('Set game password','Enter new temporary game password:')
+}
+
+Set vote percentage
+{
+/vote% $INPUT('Set new vote percentage','Enter vote percentage (0-100)')
+}
+
+Set bonus frequency
+{
+/bonus $INPUT('Set bonus frequency','Enter new frequency: 0-none, 5-lots')
+}
+
+Set maximum playgrs
+{
+/maxplayers $INPUT('Set maximum players','Enter maximum number of players:')
+}
+
+Set friendly fire
+{
+/friendlyfire $TOGGLE('Set friendly fire','Turn friendly fire...')
+}
+
+Set Advance mode
+{
+/advance $TOGGLE('Set advance mode','Turn advance mode...')
+}
+
+Set Realistic mofe
+{
+/realistic $TOGGLE('Set realistic mode','Turn realistic mode...')
+}
+
+Set Survival mode
+{
+/survival $TOGGLE('Set survival mode','Turn survival mode...')
+}
+
+Change Game Mode
+{
+/gamemode $INPUT('Set new gamemode','0-DM, 1-PM, 2-TDM, 3-CTF, 4-RM, 5-INF, 6-HTF')
+}
+
+Load Settings Fine
+{
+/loadcon $INPUT('Load settings from file','Enter settings file to load')
+}
+
+Reload Settings
+{
+/loadcon
+}
+
+Register in Lobby
+{
+/lobby
+}
+

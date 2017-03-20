@@ -1,0 +1,84 @@
+Advanced Remote Soldat Server Enchanter v1.2.9.39 
+----------------------------------------------------------
+release date: 2008.08.23.
+
+NOTE!  PLEASE UNZIP THE FILE FLAGS.ZIP TO ARSSE FOLDER TO MAKE
+NOTE!  FLAG IMAGES IN PLAYER LIST WORK!
+
+
+-fixed bug with botcount
+-fixed soldat access violation on start
+-fixed logsaving local format may disallow writing of logfiles
+-fixed wrong text in configuration (because logfolder and filenames changed)
+-fixed IRCConsole is not acting like ServerConsole
+-fixed focus fails on IRCTab choosen when showing form
+-fixed beep sound on hotkey ctrl+t
+-fixed layout
+-fixed disabled commandboxtext color
+-fixed bug with moved memo on small window
+-fixed nametabcompletion (complete rewritten)
+-fixed wrong folderpath for openlogsfolder
+-fixed windowpos saving when maximized
+-fixed wrong detection of versionnumber when updating
+-fixed update fail detection
+-fixed exception problems on disconnect
+-fixed various scrolling issues (ServerTab, ActionList, PlayerList, etc.)
+-fixed resizing panels and scrollchanging tabs issue
+-fixed deleting flags on exit issue
+-fixed beep with hotkeys
+-fixed no botflag when db missing
+-fixed on old REFRESH-request corrupt data is displayed in console
+-fixed Cmd up arrow doesn't work after second up + enter
+-fixed abnormal behavior of command line to ctrl+home, ctrl+end, etc.
+-fixed removed redundant functions for checking ctrl state
+
+-added cmdbox colorswitch on too long /say /pm messages
+-added darker teamcolors for bots
+-added open logs folder button in configuration
+-added defines for dev beta and stable version (updater will allow to choose in future)
+-added UpdatePopup Dialog
+-added new icons for beta and dev version
+-added version-file-information
+-added mouseweelscrolling through servertabs
+-added renaming servertabs on doubleclick
+-added flags in playerlist (FlagDB and flag gifs)
+-added gray text for disconnected active tab
+-added filter for open save scripts
+-added Chat mode
+-added Admin chat mode
+-added bot flag (rb.gif and flag code)
+-added hotkey for Chat mode (ctrl+e)
+-added hotkey for Admin chat mode (ctrl+w)
+-added Cmd jumps to first/last Command when at list end/start and pressing up/down
+-added Cmd ctrl+a support
+-added ctrl+clicking on commands in console window executes command
+
+
+-modified IRCTab-Items positioning to look like in ServerTab
+-modified versioning in title
+-modified Icon name
+-modified selected not active tab text color
+-modified removed unnecessary ip checking code
+-modified scrolling method
+-modified small tweak on Cmd line, if dropped down, arrows work original way
+-modified Admin chat mode text replacement code (tweaked)
+-modified scrolling enabled while cmd line or server rename has focus
+-modified command line has the focus by default
+-modified admin and normal chat mode tweaks
+-modified removed ctrl+space hotkey for admin chat
+-modified hotkeys: connect is now c, disconnect is now ctrl+d
+-modified hotkeys: ctrl+p for password and ctrl+z for pm (was p and z)
+
+
+-----------------------------------------------------------
+
+Note that this is a beta version, I'm just releasing it as I
+don't have much time nowdays to work on it.
+
+If you happen to find any bugs or stability problems, please
+feel free to report it.
+Also, if you have any new ideas, feature requests, you may
+also contact me to add it:
+
+email/jabber: shoozza@selfkill.com
+email/MSN:    hlaki@freemail.hu

@@ -1,0 +1,32 @@
+//stuff i know and i want to have improved in my lifetime
+
+memo scrolldown on focus same like for unfocused
+ICRmemo = memo behavior!
+ARSSE Finder improvement (reverse search + shortkeys)
+colored backgrounds playerlist
+treeviewlike cmdbox (collors , +/- for titles)
+posfix irccmd etc
+memo ctrl+click text selection of executed text
+better adminbubi
+ctrl+a 2x in cmd line when admin or normal chat mode is on = wholetextselected
+disconnect access voilation on debug for IRC
+SolTV
+Updater (with window where you can choose what you want to download and with download statusbar/progressbar)
+ip.abd full load (no file access all the time)
+profiler test (finding out where ARSSE uses most of his time so that it can be made fasteahr)
+Mulitthreading (at least for the connecting stuff since ARSSE freezes when you connect to a down server)
+Scriping values for all events (see manits)
+scripting variables (wow bin event :P)
+plugins
+...
+
+
+//done
+after closing configuration window at IRC tab it says "cannot focus a disabled or invisible window
+hacker alert removal
+' ' adds ' <nick>'
+save typed text before up down arrow are pressed so that it can be reached
+nearly all inputs dont support ctrl+a (SoldatServerConsole and SettingsForm supports)
+uneccesary flags remove (removed non-used flags from folder. still left 10 missing files according to FlagDB.pas)
+Focus fix (isn't it?)
+

@@ -1,0 +1,72 @@
+Advanced Remote Soldat Server Enchanter v1.2.9.62
+----------------------------------------------------------
+NOTE! IF YOU MISS THE FLAGS DOWNLOAD THIS:
+NOTE! http://arsse.u13.net/download/flags.zip
+NOTE! AND UNZIP THE FILE INTO THE ARSSE FOLDER
+----------------------------------------------------------
+release date: 2010.01.29.
+
+-added copyright date to file info
+-modified spectator points are displayed now
+-modified spectators are now sorted like all other players
+-fixed freeze for 25 seconds is now 5s max
+-fixed typo in about tab of the contiguration window
+-fixed index out of bounds error when clicking on playerlist sort
+-fixed wrong sorting of playerlist
+-fixed playerlist contextmenu reads values from wrong column
+-fixed info underneath the "more.."/"less.." label isn't empty when switching from an connected tab
+-fixed focusing hidden control error message when scrolling in IRC tab
+-fixed first click gets ignored when switching back to server tab comming from IRC tab
+-fixed IRC config username had wrong taborder
+
+----------------------------------------------------------
+release date: 2010.01.29.
+
+-added new ip.adb from 2010-01
+-added new script examples
+-added IRC bot Username option into settings
+-added Hide Command Box support when clicking on "more.." (id 0000090)
+-added TagID field in playerslist
+-added Radio teammessage color and scripting event handling (same event as teamchat)
+-added Always on top feature can be accessed through the systemmenu
+-added Player Caps to playerlist when server uses new refreshx (soldatserver 2.6.5 and later)
+-added Teamlist shows spec count and total caps/count information
+-added ip.adb updating feature
+-modified "using refreshx" messages to tell which refreshx version is beeing used
+-modified FlagDB to load ip.adb into ram instead of reading it everytime
+-modified Search argorithm to work with new FlagDB
+-modified Channel name in about box is now #shoozza
+-modified Removed perform action button
+-modified Enter saves changes in the hotkeys tab
+-modified Rewrote updater to first check then download to tempfolder and then move updatefiles to arsse's folder
+-fixed Soldatserver 2.7.0c refreshx parsing - note 2.7.0a and 2.7.0b are not supported anymore
+-fixed flag hover text spelling error
+-fixed Getting output from other server
+-fixed Reconnecting when 'disconnect all' menuitem has been clicked and autoreconnect is enabled
+-fixed Path problems when useing wrong working directory (botlist.txt, maplist.txt, bannames.txt, ip.adb and flags)
+-fixed Path problem in script file exisiting coloring
+-fixed Clicking outside of the edit filed in the hotkeys tab (settings window) saves changes anyways
+-fixed Irc connect button keeps saying 'disconnect' when connection failed
+-fixed Console Colors Merge (first attempt to fit it)
+-fixed Spelling errors Avarage -> Average
+-fixed Spelling errors in CommandBox.txt
+
+----------------------------------------------------------
+release date: 2009.05.29.
+
+-fixed update shows debug popups
+-fixed sideeffects because of semi multithreading
+
+----------------------------------------------------------
+Note that this is a dev version, this means it isn't stable but its up to date.
+We are releasing it more frequently to give you the possibility
+to take part in the development.
+
+If you happen to find any bugs or stability problems, please
+feel free to report. (Use the bugtracker: http://arsse.u13.net)
+Also, if you have any new ideas, feature requests, you may 
+also contact us:
+
+IRC:          #Shoozza (quakenet)
+email/jabber: shoozza@selfkill.com
+email/MSN:    hlaki@freemail.hu

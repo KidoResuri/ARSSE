@@ -1,0 +1,37 @@
+2008.08.30.
+
+-fixed up arrow shos same text when there is not sent text
+-fixed c hotkey not working in certain situations
+
+-added button for connect-related options, same as right-click on connect button
+-added developing TreeView-like command box (doesn't work, it's a test..)
+
+
+--------------------------------------------------------------
+
+
+-fixed add tab button didn't activate new tab
+-fixed add and remove tab buttons didn't gave focus to cmd line
+-fixed when IRC Bot is active, cmd can't have focus
+-fixed adding new tab always activates second tab only
+-fixed sometimes fails to recognise player messages
+-fixed changing tabs took focus from command line
+
+-added ctrl+1..6 hotkeys to change focus:
+	ctrl+1 = Command line
+	ctrl+2 = Player list
+	ctrl+3 = Command Box
+	ctrl+4 = Host
+	ctrl+5 = Server Tabs
+	ctrl+6 = Server Console/IRC Console
+-added ctrl+left, ctrl+right arrows change ServerTabs (only if command line
+	doesn't have focus
+-added ctrl+tab sets focus on player list
+
+-modified removed / hotkey
+-modified hotkey i to ctrl+i
+-modified IP bans in player list (Permanent/30 days)
+-modified player list and command list can have focus
+-modified console can't have focus
+-modified tab orders
+-modified update popup position
