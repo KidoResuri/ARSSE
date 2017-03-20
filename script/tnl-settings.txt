@@ -1,0 +1,6 @@
+/friendlyfire 0
+/limit 10
+/bonus 3
+/respawntime 3
+/maxrespawntime 4
+/map ctf_B2b

@@ -1,0 +1,20 @@
+# this will be executed whenever a player joins the server
+#/say Welcome to My Universe $PLAYER_NAME! Your IP is $PLAYER_IP
+  
+if $PLAYER_NAME = id77
+   
+# this will be executed only if $PLAYER_NAME _contains_ Soldier
+# for example: Soldier(1), Soldier, and SoldierHero will be kicked 
+
+ #/say Please change your name as $PLAYER_NAME is not allowed here!
+ /kick $PLAYER_NAME
+ ADMINMSG FUX
+
+else
+
+ #/say Welcome to My Universe $PLAYER_NAME! Your IP is $PLAYER_IP
+ #write $PLAYER_NAME joined!! from ip: $PLAYER_IP to server: $SERVER:$PORT
+
+endif
+
+# /say This message is sent to everyone

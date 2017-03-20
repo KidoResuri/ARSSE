@@ -1,0 +1,13 @@
+#ingame commands by Shoozza
+
+if $MESSAGE = !hi
+/say hi
+/say hello world
+/say $MAXPLAYERS test
+#/say //Admin is testing dont inerrupt or ban
+#IRCmsg $PLAYER_NAME requested an admin on $SERVER_IP:$SERVER_PORT!
+#ADMINmsg $PLAYER_NAME requested an admin on $SERVER_NAME!!
+endif
+if $MESSAGE = !ping
+/say your ping has been stolen
+endif

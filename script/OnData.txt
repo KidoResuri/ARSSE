@@ -1,0 +1,13 @@
+# IRC monitor for ARSSE by ::RiA::KeFear
+
+if $DATA <> /say An admin was requested
+ if $DATA <> REFRESH
+  if $DATA <> REFRESHX
+   IRCmsg ($SERVER_NAME) $DATA
+  endif
+ endif
+endif
+
+
+if $DATA = /players
+/say number of players: $PLAYER_COUNT

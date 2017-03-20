@@ -1,0 +1,277 @@
+#ingame commands by Shoozza
+
+if $MESSAGE = Yeah
+/pm $PLAYER_NUM Dont use the taunt Yeah
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *noob*
+/pm $PLAYER_NUM Dont use the word noob
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *Noob*
+/pm $PLAYER_NUM Dont use the word Noob
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *NOOB*
+/pm $PLAYER_NUM Dont use the word NOOB
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *n00b*
+/pm $PLAYER_NUM Dont use the word n00b
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *nap*
+/pm $PLAYER_NUM Dont use the word nap
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *nab*
+/pm $PLAYER_NUM Dont use the word nab
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *nub*
+/pm $PLAYER_NUM Dont use the word nub
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *nuub*
+/pm $PLAYER_NUM Dont use the word nuub
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *faggot*
+/pm $PLAYER_NUM Dont use the word faggot
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *madafaka*
+/pm $PLAYER_NUM Dont use the word madafaka
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *bitch*
+/pm $PLAYER_NUM Dont use the word bitch
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *whore*
+/pm $PLAYER_NUM Dont use the word bitch
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *ficker*
+/pm $PLAYER_NUM Dont use the word ficker
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = fu
+/pm $PLAYER_NUM Dont use the word fu
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *pussy*
+/pm $PLAYER_NUM Dont use the word pussy
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *sucker*
+/pm $PLAYER_NUM Dont use the word sucker
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *kurwa*
+/pm $PLAYER_NUM Dont use the word kurwa
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *kurwo*
+/pm $PLAYER_NUM Dont use the word kurwo
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *Kurwa*
+/pm $PLAYER_NUM Dont use the word Kurwa
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *whine*
+/pm $PLAYER_NUM Dont use the word whine
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *crymore*
+/pm $PLAYER_NUM Dont use the word crymore
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *Crymore*
+/pm $PLAYER_NUM Dont use the word Crymore
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *p w n t*
+/pm $PLAYER_NUM Dont use the word p w n t
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *ow nt*
+/pm $PLAYER_NUM Dont use the word ow nt
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *Own3d*
+/pm $PLAYER_NUM Dont use the word Own3d
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *OwN3d*
+/pm $PLAYER_NUM Dont use the word OwN3d
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = Die!
+/pm $PLAYER_NUM Dont use the word Die!
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = Sniper!
+/pm $PLAYER_NUM Dont use the word Sniper!
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *owned*
+/pm $PLAYER_NUM Dont use the word owned
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *pwn*
+/pm $PLAYER_NUM Dont use the word pwn
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = ass*
+/pm $PLAYER_NUM Dont use the word ass
+/kick $PLAYER_NUM
+endif
+
+
+if $MESSAGE = * ass*
+/pm $PLAYER_NUM Dont use the word ass...
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *pizda*
+/pm $PLAYER_NUM Dont use the word pizda
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *pizdo*
+/pm $PLAYER_NUM Dont use the word pizdo
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = luck
+/pm $PLAYER_NUM Dont use the word luck
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *lucker*
+/pm $PLAYER_NUM Dont use the word lucker
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = l ucker
+/pm $PLAYER_NUM Dont use the word l ucker
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *nigger*
+/pm $PLAYER_NUM Dont use the word nigger
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *nigga*
+/pm $PLAYER_NUM Dont use the word nigger
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *hax*
+/pm $PLAYER_NUM Dont use the word hax
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = hacker
+/pm $PLAYER_NUM usage: hacker [hackernick] [kind of hack]
+endif
+
+if $MESSAGE = gay*
+/pm $PLAYER_NUM Dont use the word gay
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = huj
+/pm $PLAYER_NUM Dont use the word huj
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = hit*
+/pm $PLAYER_NUM Dont use the word hit
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = thit
+/pm $PLAYER_NUM Don't use the word hit
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *lamer*
+/pm $PLAYER_NUM Dont use the word lamer
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = *fuck*
+/pm $PLAYER_NUM Dont use the word fuck
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = I am the law!
+/pm $PLAYER_NUM Dont use the taunt I am the law!
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = On your feet soldier!
+/pm $PLAYER_NUM Dont use the taunt On your feet soldier!
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = Yes, Sir!
+/pm $PLAYER_NUM Dont use the taunt Yes, Sir!
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = Engage at will!!!
+/pm $PLAYER_NUM Dont use the taunt Engage at will!!!
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = It's over Johnny
+/pm $PLAYER_NUM Dont use the taunt It's over Johnny
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = You're one ugly mother fu**er!
+/pm $PLAYER_NUM Dont use the taunt You're one ugly mother fu**er!
+/kick $PLAYER_NUM
+endif
+
+if $MESSAGE = !admin
+/say An admin was requested
+IRCmsg $PLAYER_NAME requested an admin on $SERVER_IP:$SERVER_PORT!
+ADMINMSG $PLAYER_NAME requested an admin on $SERVER_NAME!!
+endif

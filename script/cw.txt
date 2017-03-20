@@ -1,0 +1,3 @@
+/kickall
+/load tnl-settings
+/password MuhA
